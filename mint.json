@@ -26,11 +26,21 @@
     },
     {
       "group": "Use Cases",
-      "pages": ["use-cases/answering-questions", "use-cases/checking-service-status", "use-cases/incident-response", "use-cases/troubleshooting-guide"]
+      "pages": [
+        "use-cases/answering-questions",
+        "use-cases/checking-service-status",
+        "use-cases/incident-response",
+        "use-cases/troubleshooting-guide"
+      ]
     },
     {
       "group": "Case Studies",
-      "pages": ["case-studies/quick-health-check"]
+      "pages": [
+        "case-studies/automating-qna-channel",
+        "case-studies/handling-incidents-when-youre-away",
+        "case-studies/retrieving-information-quickly",
+        "case-studies/checking-kubernetes-resource-status"
+      ]
     }
   ],
   "footerSocials": {
