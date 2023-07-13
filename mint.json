@@ -23,6 +23,10 @@
   },
   "tabs": [
     {
+      "name": "Solutions",
+      "url": "solutions"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference"
     }
@@ -35,6 +39,10 @@
     {
       "group": "Essentials",
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+    },
+    {
+      "group": "Use Cases",
+      "pages": ["solutions/answering-questions", "solutions/checking-service-status", "solutions/incident-response", "solutions/troubleshooting-guide"]
     },
     {
       "group": "API Documentation",
