@@ -12,9 +12,13 @@
     "dark": "#004E7A"
   },
   "topbarLinks": [
+    {
+      "name": "Contact us",
+      "url": "mailto:contact@runbear.io"
+    }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Get started",
     "url": "https://app.runbear.io"
   },
   "tabs": [
@@ -44,9 +48,9 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/runbear_io",
+    "github": "https://github.com/runbear-io",
+    "linkedin": "https://www.linkedin.com/company/runbear"
   },
   "backgroundImage": "/background.png"
 }
