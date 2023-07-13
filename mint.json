@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Runbear",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -13,19 +13,15 @@
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Contact us",
+      "url": "mailto:contact@runbear.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get started",
+    "url": "https://app.runbear.io"
   },
   "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
   ],
   "navigation": [
     {
@@ -33,27 +29,28 @@
       "pages": ["introduction", "quickstart", "development"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Use Cases",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "use-cases/answering-questions",
+        "use-cases/checking-service-status",
+        "use-cases/incident-response",
+        "use-cases/troubleshooting-guide"
+      ]
+    },
+    {
+      "group": "Case Studies",
+      "pages": [
+        "case-studies/automating-qna-channel",
+        "case-studies/handling-incidents-when-youre-away",
+        "case-studies/retrieving-information-quickly",
+        "case-studies/checking-kubernetes-resource-status"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/runbear_io",
+    "github": "https://github.com/runbear-io",
+    "linkedin": "https://www.linkedin.com/company/runbear"
   },
   "backgroundImage": "/background.png"
 }
