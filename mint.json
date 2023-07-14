@@ -33,6 +33,7 @@
       "pages": [
         "use-cases/answering-questions",
         "use-cases/checking-service-status",
+        "use-cases/extracting-metrics",
         "use-cases/incident-response",
         "use-cases/troubleshooting-guide"
       ]
