@@ -21,22 +21,64 @@ Open [https://app.runbear.io](https://ap.runbear.io) and join. After joining, vi
 
 ![Slack connect](/images/screenshot-slack-connect.png)
 
-### Invite @Runbear to Your Channel
+### Invite `@Runbear` to Your Channel
 
-Invite @Runbear to your channel by typing `/invite @Runbear` in the channel.
+Invite `@Runbear` to your channel by typing `/invite @Runbear` in the channel.
 
 ![Invite Runbear to the Slack channel](/images/screenshot-invite-runbear-to-slack-channel.png)
-
-### Config Data Sources
-
-// TODO: Connect data sources to channels.
 
 ## Asking Questions
 
 ### Option 1. Ask Runbear Directly
 
+Ask questions to Runbear directly by mentioning `@Runbear`.
+
+![Ask runbear directly](/images/screenshot-ask-runbear-directly.png)
+
 ### Option 2. Make Runbear Answer Automatically
 
-// TODO: Turn on the option 'Auto Reply'.
+<Note>
+  **This feature is currently under development.** It will enable Runbear to
+  automatically follow Slack conversations and respond to questions that can be
+  answered.
+</Note>
 
 ### Option 3. Use Slack Workflow to Ask Questions
+
+You can use Slack Workflow to receive questions from colleagues and have `@Runbear` provide answers.
+
+#### Step 1. Create a Slack Workflow
+
+To create a Slack workflow, access the Workflow Builder menu located under Tools.
+
+![Workflow Builder menu](/images/screenshot-slack-workflow-menu.png)
+
+#### Step 2: Add a Step to Ask a Question
+
+Click the "Create workflow" button and select the "From a link in Slack" option. You can find a guide on creating workflows [here](https://slack.com/help/articles/360035692513-Guide-to-Slack-Workflow-Builder).
+
+#### Step 3. Add a Step to Post the Message with `@Runbear` Mentioned
+
+Include a step in the workflow to post the message to the channel, mentioning `@Runbear`.
+
+![Slack Workflow Step](/images/screenshot-slack-workflow-step.png)
+
+#### Step 4. Add a Bookmark
+
+Attach the URL of the workflow to a bookmark in the Slack channel.
+
+![Add a bookmark](/images/screenshot-add-a-bookmark.png)
+
+This is an example of how the bookmark looks.
+
+![A bookmark example](/images/screenshot-slack-bookmark.png)
+
+#### Step 5. Get Questions Through the Bookmark
+
+Announce the workflow to the channel and encourage your colleagues to ask questions through the bookmarked workflow.
+
+![Question form](/images/screenshot-workflow-form.png)
+
+`@Runbear` will provide answers to the questions.
+
+![Slack Workflow Answer](/images/screenshot-workflow-answer.png)
