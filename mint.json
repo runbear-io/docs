@@ -26,7 +26,12 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": [
+        "introduction",
+        "slack-integration",
+        "quickstart",
+        "development"
+      ]
     },
     {
       "group": "Use Cases",
