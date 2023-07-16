@@ -29,8 +29,7 @@
       "pages": [
         "introduction",
         "slack-integration",
-        "quickstart",
-        "development"
+        "managing-runbooks"
       ]
     },
     {
@@ -38,10 +37,10 @@
       "pages": [
         "use-cases/answering-questions",
         "use-cases/checking-service-status",
-        "use-cases/resolving-errors",
         "use-cases/keeping-conversation",
-        "use-cases/extracting-information",
         "use-cases/slack-request-form",
+        "use-cases/resolving-errors",
+        "use-cases/extracting-information",
         "use-cases/incident-response",
         "use-cases/troubleshooting-guide"
       ]
