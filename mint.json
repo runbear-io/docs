@@ -29,7 +29,8 @@
       "pages": [
         "introduction",
         "slack-integration",
-        "managing-runbooks"
+        "managing-runbooks",
+        "runbook-execution"
       ]
     },
     {
