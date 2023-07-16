@@ -45,6 +45,12 @@
         "case-studies/retrieving-information-quickly",
         "case-studies/checking-kubernetes-resource-status"
       ]
+    },
+    {
+      "group": "Under the Hood",
+      "pages": [
+        "under-the-hood/faq"
+      ]
     }
   ],
   "footerSocials": {
