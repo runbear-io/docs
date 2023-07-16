@@ -45,15 +45,6 @@
         "use-cases/incident-response",
         "use-cases/troubleshooting-guide"
       ]
-    },
-    {
-      "group": "Case Studies",
-      "pages": [
-        "case-studies/automating-qna-channel",
-        "case-studies/handling-incidents-when-youre-away",
-        "case-studies/retrieving-information-quickly",
-        "case-studies/checking-kubernetes-resource-status"
-      ]
     }
   ],
   "footerSocials": {
