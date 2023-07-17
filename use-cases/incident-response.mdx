@@ -1,4 +1,72 @@
 ---
 title: Incident Response
-description: "TODO: Description here."
+description: "Resolve incidents faster with Runbear."
 ---
+
+Runbear is a tool for incident response. It helps you resolve incidents faster
+by providing additional information about the incident and by automating tasks
+that helps you to recover services.
+
+## Runbooks for Incident Response
+
+### Checking Service Status
+
+Checking the service status is the initial step in incident response. It allows
+you to assess the extent of the incident and determine the subsequent actions.
+Refer to the [Checking Service Status](/checking-service-status) page to
+understand the setup process for runbooks.
+
+### Checking Latest Updates
+
+Most incidents occur as a result of changes, such as code changes, infrastructure
+modifications, or altered settings. By including suspected changes in incident
+alerts, you can swiftly identify the causes and resolve the incident.
+
+For example, to check the latest deployments in GitHub, you can use the following
+command:
+
+<Warning>Multi-line command block is not supported at the moment.</Warning>
+
+```bash
+curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer ${github_token}"\
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/OWNER/REPO/deployments
+```
+
+You can configure secret values on the Secrets page. For more information,
+please refer to the [Managing Secrets](/runbook-management#managing-secrets)
+page.
+
+## Attaching Runbear to Incident Alerts
+
+You probably receive alerts from services such as Datadog, Cloudwatch, or
+Grafana. In many cases, although these alerts provide you with an abnormal
+metrics, they don't provide you with enough information to identify the cause
+and resolve the incident.
+
+Runbear can be attached to any incident alerting system that supports webhooks.
+To attach Runbear to your incident alerting system, you will need to create a
+new webhook in Runbear and then configure your incident alerting system to send
+alerts to that webhook.
+
+### Step 1. Create a Slack Workflow
+
+To create a Slack workflow, access the Workflow Builder menu located under Tools.
+
+![Workflow Builder menu](/images/screenshot-slack-workflow-menu.png)
+
+Click the "Create Workflow" button and select the "From a link in Slack" option. You can find a guide on creating workflows [here](https://slack.com/help/articles/360035692513-Guide-to-Slack-Workflow-Builder).
+
+### Step 2. Add a Step to Post the Message with `@Runbear` Mentioned
+
+Select `Messages > Send a message to a channel` to add a step. Type the command you want to execute in the message field and mention `@Runbear` in the message.
+
+![Slack Workflow Command](/images/screenshot-slack-workflow-command.png)
+
+Copy the webhook URL from the workflow page.
+
+### Step 3. Add the Webhook URL to Your Incident Alerting System
+
+Most of the alerting system supports calling a webhook when an alert is triggered. Add the URL you copied from Step 2 to your incident alerting system.
