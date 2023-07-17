@@ -1,0 +1,32 @@
+---
+title: Retrieving Data for Operations
+description: "Retrieve information easily from you database to handle operations."
+---
+
+Efficient information retrieval is vital for handling service operations. For example,
+you may need to retrieve user information from a database to handle a customer
+request.
+
+However, building backoffice systems and using SQL queries can be time-consuming and
+complex. Enter Runbear, a low-code ChatOps platform that simplifies these tasks. With
+Runbear, you can quickly set up runbooks and retrieve information with ease.
+
+## Setup Runbooks for Getting Information
+
+Check out [Runbook Management](/runbook-management) page to learn how to create a runbook. For this example, we will create a runbook that retrieves information from a database.
+
+### Using `psql` to Retrieve Information from PostgreSQL
+
+Use this command to retrieve information from a PostgreSQL database:
+
+```bash
+psql postgresql://${username}:${password}@postgres:5432 -A -c "SELECT ..."
+```
+
+You can Environment Secrets to store the credential data. Check out [Managing Secrets](/runbook-management#managing-secrets) section to learn more.
+
+![Secrets](./images/screenshot-secrets.png)
+
+## Retreiving Information
+
+You can just ask Runbear to run the runbook you created. Runbear will execute the runbook and return the result. Check out [Runbook Execution](/runbook-execution) page to learn how to execute a runbook.

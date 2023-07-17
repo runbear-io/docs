@@ -39,3 +39,28 @@ There are two ways to create a runbook:
 </Note>
 
 ![Capture Result](/images/screenshot-capture-result.png)
+
+## Managing Secrets
+
+You can store the secrets in the runbook and use them in the tasks.
+
+### Adding Secrets
+
+Click the button on the top-right side of a runbook and select **Manage Secrets**.
+
+![Secrets menu](/images/screenshot-secrets-menu.png)
+
+Add secrets using the popup page.
+
+<Note>The secret value will not be displayed as plain text.</Note>
+
+![Secrets](/images/screenshot-secrets.png)
+
+### Using Secrets
+
+Type the secret name in the task command using the ${} annotation. The value will be
+replaced with the secret value when the task is executed.
+
+```bash
+psql postgresql://${username}:${password}@postgres:5432 -A -c "SELECT ..."
+```

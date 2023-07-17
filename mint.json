@@ -38,13 +38,13 @@
       "pages": [
         "use-cases/answering-questions",
         "use-cases/checking-service-status",
+        "use-cases/troubleshooting-guide",
+        "use-cases/retrieving-data",
         "use-cases/keeping-conversation",
         "use-cases/slack-request-form",
         "use-cases/slack-bookmark",
         "use-cases/resolving-errors",
-        "use-cases/extracting-information",
-        "use-cases/incident-response",
-        "use-cases/troubleshooting-guide"
+        "use-cases/incident-response"
       ]
     },
     {
