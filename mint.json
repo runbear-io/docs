@@ -21,29 +21,29 @@
     "name": "Get started",
     "url": "https://app.runbear.io"
   },
-  "tabs": [
-  ],
+  "tabs": [],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": [
+        "introduction",
+        "slack-integration",
+        "runbook-management",
+        "runbook-execution",
+        "setup-worker"
+      ]
     },
     {
       "group": "Use Cases",
       "pages": [
         "use-cases/answering-questions",
         "use-cases/checking-service-status",
+        "use-cases/keeping-conversation",
+        "use-cases/slack-request-form",
+        "use-cases/resolving-errors",
+        "use-cases/extracting-information",
         "use-cases/incident-response",
         "use-cases/troubleshooting-guide"
-      ]
-    },
-    {
-      "group": "Case Studies",
-      "pages": [
-        "case-studies/automating-qna-channel",
-        "case-studies/handling-incidents-when-youre-away",
-        "case-studies/retrieving-information-quickly",
-        "case-studies/checking-kubernetes-resource-status"
       ]
     },
     {
