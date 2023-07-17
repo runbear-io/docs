@@ -1,4 +1,41 @@
 ---
 title: Checking Service Status
-description: "TODO: Description here."
+description: "Checking the status of a service using Slack."
 ---
+
+Do you find yourself constantly needing to check the status of various services?
+Are you frequently bombarded with requests from colleagues to verify if a service
+is functioning properly? Monitoring service liveness, CPU usage, database disk usage,
+or DNS status can be a daunting task, especially if you're not familiar with the
+technical intricacies involved.
+
+## The Problem: Dashboards Are Not Enough
+
+You must have dashboards and tools to monitor service status. But these tools are
+not for everyone. Complicated dashboards and relying on engineers slow things down.
+
+## The Solution: Prepare Runbooks for Checking Statuses
+
+But here comes Runbear, an easy-to-use tool that automates system checks without
+needing technical knowledge or special access.
+
+With Runbear, you don't have to deal with complex dashboards anymore. Just ask questions, and you'll get real-time updates on service health. This gives non-tech people the power to make informed decisions and take action on their own, saving time and boosting productivity.
+
+## Settings
+
+### Create a Runbook Document for Checking Statuses
+
+There are various ways to check the service health. If you have an API for health check, you can use a simple `curl` command.
+
+<Check>
+  Make sure to turn on the `Executable` and `Autorun` options for the code
+  block.
+</Check>
+
+![Healthcheck Runbook](/images/screenshot-healthcheck-runbook.png)
+
+### Ask `@Runbear` to Check the Status
+
+Just ask `@Runbear` to check the status of your service. It will run the code block and return the result.
+
+![Healthcheck Result](/images/screenshot-healthcheck-result.png)

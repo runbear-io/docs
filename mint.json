@@ -27,6 +27,9 @@
       "group": "Get Started",
       "pages": [
         "introduction",
+        "slack-integration",
+        "runbook-management",
+        "runbook-execution",
         "setup-worker"
       ]
     },
@@ -35,6 +38,10 @@
       "pages": [
         "use-cases/answering-questions",
         "use-cases/checking-service-status",
+        "use-cases/keeping-conversation",
+        "use-cases/slack-request-form",
+        "use-cases/resolving-errors",
+        "use-cases/extracting-information",
         "use-cases/incident-response",
         "use-cases/troubleshooting-guide"
       ]
