@@ -21,8 +21,7 @@
     "name": "Get started",
     "url": "https://app.runbear.io"
   },
-  "tabs": [
-  ],
+  "tabs": [],
   "navigation": [
     {
       "group": "Get Started",
@@ -30,7 +29,8 @@
         "introduction",
         "slack-integration",
         "runbook-management",
-        "runbook-execution"
+        "runbook-execution",
+        "setup-worker"
       ]
     },
     {
