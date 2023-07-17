@@ -45,6 +45,12 @@
         "use-cases/incident-response",
         "use-cases/troubleshooting-guide"
       ]
+    },
+    {
+      "group": "Under the Hood",
+      "pages": [
+        "under-the-hood/faq"
+      ]
     }
   ],
   "footerSocials": {
