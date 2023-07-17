@@ -40,6 +40,7 @@
         "use-cases/checking-service-status",
         "use-cases/keeping-conversation",
         "use-cases/slack-request-form",
+        "use-cases/slack-bookmark",
         "use-cases/resolving-errors",
         "use-cases/extracting-information",
         "use-cases/incident-response",
